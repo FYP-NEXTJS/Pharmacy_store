@@ -1,6 +1,7 @@
 import CategoryCard from "./components/Category/page";
 import CarouselCard from "./components/CarouselCard/page";
 import { describe } from "node:test";
+import { CarouselPlugin } from "@/app/components/CarouselPlugin/page";
 
 export default function Home() {
   const medicineCategories = [
@@ -28,6 +29,49 @@ export default function Home() {
       name: "Panadol",
       description: "Effective for Headache of Adults only!",
       price: 30,
+    },
+    {
+      name: "Brufen",
+      description: "Relieves pain, inflammation, and fever quickly.",
+      price: 50,
+    },
+    {
+      name: "Augmentin",
+      description:
+        "Antibiotic for bacterial infections in adults and children.",
+      price: 200,
+    },
+    {
+      name: "Calpol",
+      description:
+        "Safe and effective syrup for fever and mild pain in children.",
+      price: 60,
+    },
+    {
+      name: "Ponstan",
+      description: "Fast relief from menstrual cramps and muscle pain.",
+      price: 80,
+    },
+    {
+      name: "Flagyl",
+      description: "Used for bacterial and parasitic infections.",
+      price: 40,
+    },
+    {
+      name: "Cetirizine",
+      description: "Relieves allergy symptoms like sneezing and runny nose.",
+      price: 25,
+    },
+    {
+      name: "ORS Sachets",
+      description: "Rehydrates the body after dehydration or diarrhea.",
+      price: 15,
+    },
+    {
+      name: "Betnovate Cream",
+      description:
+        "Effective treatment for skin irritation, rashes, and eczema.",
+      price: 120,
     },
   ];
 
@@ -110,18 +154,10 @@ export default function Home() {
           </p>
         </div>
 
-        {/* Rendering Most popular Products  */}
-        <div className="flex justify-center gap-4">
-          {popularProducts.map((item, key) => {
-            return (
-              <CarouselCard
-                medTitle={item.name}
-                description={item.description}
-                price={item.price}
-              />
-            );
-          })}
-        </div>
+        {/* Carousel for Most Popular Items  */}
+        <section className="flex justify-center">
+          <CarouselPlugin products={popularProducts} />
+        </section>
       </div>
     </div>
   );
