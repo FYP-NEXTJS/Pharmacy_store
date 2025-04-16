@@ -94,11 +94,15 @@ export default function Home() {
       </div>
 
       {/* Why Choose Us Section */}
-      <div className="flex flex-col md:flex-row pt-20 px-5 gap-8 items-center">
-        <div className="bg-yellow-500 w-full md:w-1/2 h-[300px] flex justify-center items-center">
-          Delivery Image here
+      <div className="flex flex-col justify-center md:flex-row pt-20 px-5 gap-8 items-center">
+        <div className="bg-yellow-500 h-[350px] rounded-lg w-full md:w-2/5  flex justify-center items-center">
+          <img
+            className="h-full w-full object-cover rounded-lg"
+            src="/images/delivery.jpg"
+            alt="Delivery man image"
+          />
         </div>
-        <div className="bg-green-300 w-full md:w-1/2 p-6 rounded-lg">
+        <div className=" h-[350px] w-full md:w-2/5 p-6 rounded-lg">
           <h2 className="text-4xl font-bold text-blue-950 px-1 py-3 ">
             Why should you
           </h2>
@@ -116,8 +120,8 @@ export default function Home() {
       </div>
 
       {/* Services Section */}
-      <div className="flex justify-center items-center flex-col text-center py-20 px-4">
-        <h2 className="mb-4 text-4xl font-bold text-blue-950">
+      <div className="flex justify-center pt-28 items-center flex-col text-center py-10 px-4">
+        <h2 className="mb-4 text-4xl py-0 font-bold text-blue-950">
           All Services You Will Get
         </h2>
         <p className="max-w-2xl text-base sm:text-lg text-gray-700">
@@ -141,9 +145,9 @@ export default function Home() {
       </div>
 
       {/* Popular Medicines  */}
-      <div className="bg-gradient-to-r from-green-400 via-blue-500 to-blue-700 mt-10">
-        <div className="flex justify-center items-center flex-col text-center py-20 px-4">
-          <h2 className="mb-4 text-4xl font-bold text-white">
+      <div className="bg-gradient-to-r  from-green-400 via-blue-500 to-blue-700 mt-10">
+        <div className="flex  justify-center items-center flex-col text-center py-10 px-4">
+          <h2 className="mb-2 text-4xl font-bold text-white">
             Most Popular Products
           </h2>
           <p className="max-w-2xl text-base sm:text-lg text-white">
@@ -158,6 +162,38 @@ export default function Home() {
         <section className="flex justify-center">
           <CarouselPlugin products={popularProducts} />
         </section>
+
+        <div className="flex justify-center">
+          <button className="my-8 transition-all duration-200 px-4 hover:px-5 hover:py-3 py-2 border-red-600 border-2 text-red-600 bg-white hover:text-white hover:bg-red-600">
+            All Products
+          </button>
+        </div>
+      </div>
+
+      {/* Tagline  */}
+      <div className="pb-10 flex flex-col justify-center md:flex-row pt-20 px-5 gap-8 items-center">
+        <div className=" h-[350px] w-full md:w-2/5 p-6 rounded-lg">
+          <h2 className="text-4xl font-bold text-blue-950 px-1 py-3 ">
+            Your Trusted Partner
+          </h2>
+          <h1 className="text-4xl font-bold text-blue-950 px-1 py-3">
+            In Health Care
+          </h1>
+          <p className="mt-4 text-base sm:text-lg text-gray-700 max-w-xl">
+            We focus on more than just selling medicine — we care about your
+            health and peace of mind. From 100% genuine prescriptions to fast
+            home delivery, we’re here to make healthcare simple, safe, and
+            affordable. Our licensed pharmacists are ready to guide you, every
+            step of the way.
+          </p>
+        </div>
+        <div className="bg-yellow-500 h-[350px] rounded-lg w-full md:w-2/5  flex justify-center items-center">
+          <img
+            className="h-full w-full object-cover rounded-lg"
+            src="/images/delivery.jpg"
+            alt="Delivery man image"
+          />
+        </div>
       </div>
     </div>
   );
