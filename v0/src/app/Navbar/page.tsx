@@ -1,6 +1,6 @@
 export default function Navbar() {
   return (
-    <nav className="bg-[#ffffff] text-white shadow-md">
+    <nav className="bg-blue-700 text-white shadow-md">
       <div className="container mx-auto flex items-center justify-between py-4 px-6">
         {/* Logo */}
         <div className="text-xl font-bold hover:bg-[#000000] px-1 rounded-md">
@@ -14,10 +14,16 @@ export default function Navbar() {
           <a className="hover:bg-[#000000] px-3 py-2 rounded-md" href="/Login">
             Login Page
           </a>
-          <a className="hover:bg-[#000000] px-3 py-2 rounded-md" href="/Register">
+          <a
+            className="hover:bg-[#000000] px-3 py-2 rounded-md"
+            href="/Register"
+          >
             Register Page
           </a>
-          <a className="hover:bg-[#000000] px-3 py-2 rounded-md" href="/Profile">
+          <a
+            className="hover:bg-[#000000] px-3 py-2 rounded-md"
+            href="/Profile"
+          >
             Profile Page
           </a>
         </div>

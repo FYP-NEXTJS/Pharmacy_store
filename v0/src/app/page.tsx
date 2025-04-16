@@ -80,10 +80,10 @@ export default function Home() {
       {/* Hero Section */}
       <div className="bg-red-500 h-[600px] w-full">
         <div className="flex flex-col justify-center items-start pt-32 pl-10 md:pl-32">
-          <h1 className="text-4xl md:text-5xl font-bold py-3">
+          <h1 className="text-4xl px-0 text-white md:text-5xl font-bold py-3">
             Medication for
           </h1>
-          <h1 className="text-4xl md:text-5xl font-bold py-3">
+          <h1 className="text-4xl px-0 text-white md:text-5xl font-bold py-3">
             Your Everyday Health
           </h1>
           <div className="flex flex-col text-lg text-white py-3">
