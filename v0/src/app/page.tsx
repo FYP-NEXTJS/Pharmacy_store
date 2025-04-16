@@ -1,4 +1,6 @@
 import CategoryCard from "./components/Category/page";
+import CarouselCard from "./components/CarouselCard/page";
+import { describe } from "node:test";
 
 export default function Home() {
   const medicineCategories = [
@@ -13,6 +15,19 @@ export default function Home() {
       categoryDescription:
         "Liquid medicines ideal for children and soothing treatments.",
       imageUrl: "/images/syrup-category.jpg",
+    },
+  ];
+
+  const popularProducts = [
+    {
+      name: "Disprin",
+      description: "Effective for Headache of all ages",
+      price: 10,
+    },
+    {
+      name: "Panadol",
+      description: "Effective for Headache of Adults only!",
+      price: 30,
     },
   ];
 
@@ -79,6 +94,34 @@ export default function Home() {
             />
           );
         })}
+      </div>
+
+      {/* Popular Medicines  */}
+      <div className="bg-gradient-to-r from-green-400 via-blue-500 to-blue-700 mt-10">
+        <div className="flex justify-center items-center flex-col text-center py-20 px-4">
+          <h2 className="mb-4 text-4xl font-bold text-white">
+            Most Popular Products
+          </h2>
+          <p className="max-w-2xl text-base sm:text-lg text-white">
+            We offer complete pharmacy services — from filling your
+            prescriptions to giving expert health advice. Our team is here to
+            provide you with trusted care, high-quality medicines, and friendly,
+            personalized support for your health needs.
+          </p>
+        </div>
+
+        {/* Rendering Most popular Products  */}
+        <div className="flex justify-center gap-4">
+          {popularProducts.map((item, key) => {
+            return (
+              <CarouselCard
+                medTitle={item.name}
+                description={item.description}
+                price={item.price}
+              />
+            );
+          })}
+        </div>
       </div>
     </div>
   );
