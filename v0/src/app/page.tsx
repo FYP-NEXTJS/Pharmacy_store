@@ -17,6 +17,12 @@ export default function Home() {
         "Liquid medicines ideal for children and soothing treatments.",
       imageUrl: "/images/syrup-category.jpg",
     },
+    {
+      categoryName: "Creams",
+      categoryDescription:
+        "Liquid medicines ideal for children and soothing treatments.",
+      imageUrl: "/images/syrup-category.jpg",
+    },
   ];
 
   const popularProducts = [
