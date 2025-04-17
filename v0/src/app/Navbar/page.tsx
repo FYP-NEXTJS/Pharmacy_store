@@ -9,7 +9,9 @@ const Page = async () => {
   return (
     <div className="navbar bg-blue-900 shadow-sm">
       <div className="flex-1">
-        <a className="btn btn-ghost text-white text-xl">Zahid Pharmacy</a>
+        <a href="/" className="btn btn-ghost text-white text-xl">
+          Zahid Pharmacy
+        </a>
       </div>
       <div className="flex-none">
         <div className="flex items-center">
