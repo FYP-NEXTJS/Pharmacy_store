@@ -9,7 +9,7 @@ export interface ICategory extends Document {
 const CategorySchema: Schema = new Schema({
   name: { type: String, required: true },
   description: { type: String, required: true },
-  imageUrl: { type: String, required: true },
+  imageUrl: { type: String, default: "/images/tablet-category.jpg" },
   itemsCount: { type: Number, default: 0 },
   items: { type: [Schema.Types.ObjectId], ref: "Medicine" },
 });

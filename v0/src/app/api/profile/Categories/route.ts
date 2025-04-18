@@ -20,6 +20,18 @@ export const POST = async (req: Request) => {
     await dbConnect();
     const body = await req.json();
 
+    // Check if category already exists
+    const existingCategory = await Category.findOne({
+      name: body.name,
+    });
+
+    if (existingCategory) {
+      return NextResponse.json(
+        { message: "Category already exists" },
+        { status: 400 }
+      );
+    }
+
     const category = await Category.create(body);
     return NextResponse.json(category, {
       status: 201,
