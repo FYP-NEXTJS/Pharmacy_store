@@ -16,19 +16,34 @@ import { NextResponse } from "next/server";
 // }
 
 export const POST = async (req: Request) => {
-  await dbConnect();
-  const body = await req.json();
+  try {
+    await dbConnect();
+    const body = await req.json();
 
-  const category = await Category.create(body);
-  return NextResponse.json(category, { status: 201 });
+    const category = await Category.create(body);
+    return NextResponse.json(category, {
+      status: 201,
+    });
+  } catch (error) {
+    console.error("Error in POST request:", error);
+    return NextResponse.json(
+      { error: "Internal Server Error" },
+      { status: 500 }
+    );
+  }
 };
 
 export const GET = async (req: Request) => {
-  await dbConnect();
+  try {
+    await dbConnect();
+    const categories = await Category.find();
 
-  const categories = await Category.find();
-
-  return NextResponse.json(categories, { status: 200 });
+    return NextResponse.json(categories, { status: 200 });
+  } catch (error) {
+    console.error("Error in GET request:", error);
+    return NextResponse.json(
+      { error: "Internal Server Error" },
+      { status: 500 }
+    );
+  }
 };
-
-
