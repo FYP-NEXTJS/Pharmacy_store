@@ -1,9 +1,38 @@
+"use client";
 import CategoryCard from "./components/Category/page";
-import CarouselCard from "./components/CarouselCard/page";
-import { describe } from "node:test";
 import { CarouselPlugin } from "@/app/components/CarouselPlugin/page";
+import { useState, useEffect } from "react";
 
+interface categories {
+  name: string;
+  description: string;
+  imageUrl: string;
+}
+interface medicines {
+  name: string;
+  price: Number;
+  category: string;
+  stock: Number;
+  imageUrl: string;
+}
 export default function Home() {
+  const [categories, setCategories] = useState<categories[]>([]);
+
+  const [medicines, setMedicines] = useState(null);
+
+  const fetchData = async () => {
+    const response = await fetch(`/api/profile/Categories`);
+    if (!response.ok) {
+      throw new Error("Failed to fetch data");
+    }
+    const categories = await response.json();
+    setCategories(categories);
+  };
+
+  useEffect(() => {
+    fetchData();
+  }, []);
+
   const medicineCategories = [
     {
       categoryName: "Tablets",
@@ -138,16 +167,17 @@ export default function Home() {
       </div>
 
       <div className="flex gap-5 flex-wrap justify-center">
-        {medicineCategories.map((med, index) => {
-          return (
-            <CategoryCard
-              key={index}
-              categoryName={med.categoryName}
-              categoryDescription={med.categoryDescription}
-              imageUrl={med.imageUrl}
-            />
-          );
-        })}
+        {categories &&
+          categories.map((med, index) => {
+            return (
+              <CategoryCard
+                key={index}
+                categoryName={med.name}
+                categoryDescription={med.description}
+                imageUrl={med.imageUrl}
+              />
+            );
+          })}
       </div>
 
       {/* Popular Medicines  */}
