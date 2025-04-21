@@ -1,56 +1,86 @@
 {
   "node": {
-    "0b8c279b71c03104ce4db9fe0d1610fb28784cf6": {
+    "75fe55b71fddbd4b61fd67aa24e5f7be41c8b7bd": {
       "workers": {
+        "app/Admin/Dashboard/Add-Category/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fhome%2Fabdul-wahab%2FCode%20Space%2FWeb%2FFYP%2FPharmacy_store%2Fv0%2Fsrc%2Fapp%2FNavbar%2Fpage.tsx%22%2C%5B%22default%22%5D%5D%2C%5B%22%2Fhome%2Fabdul-wahab%2FCode%20Space%2FWeb%2FFYP%2FPharmacy_store%2Fv0%2Fnode_modules%2F%40clerk%2Fnextjs%2Fdist%2Fesm%2Fapp-router%2Fkeyless-actions.js%22%2C%5B%22deleteKeylessAction%22%2C%22syncKeylessConfigAction%22%2C%22createOrReadKeylessAction%22%5D%5D%5D&__client_imported__=!",
         "app/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fhome%2Fabdul-wahab%2FCode%20Space%2FWeb%2FFYP%2FPharmacy_store%2Fv0%2Fsrc%2Fapp%2FNavbar%2Fpage.tsx%22%2C%5B%22default%22%5D%5D%2C%5B%22%2Fhome%2Fabdul-wahab%2FCode%20Space%2FWeb%2FFYP%2FPharmacy_store%2Fv0%2Fnode_modules%2F%40clerk%2Fnextjs%2Fdist%2Fesm%2Fapp-router%2Fkeyless-actions.js%22%2C%5B%22deleteKeylessAction%22%2C%22syncKeylessConfigAction%22%2C%22createOrReadKeylessAction%22%5D%5D%5D&__client_imported__=!",
-        "app/_not-found/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fhome%2Fabdul-wahab%2FCode%20Space%2FWeb%2FFYP%2FPharmacy_store%2Fv0%2Fsrc%2Fapp%2FNavbar%2Fpage.tsx%22%2C%5B%22default%22%5D%5D%2C%5B%22%2Fhome%2Fabdul-wahab%2FCode%20Space%2FWeb%2FFYP%2FPharmacy_store%2Fv0%2Fnode_modules%2F%40clerk%2Fnextjs%2Fdist%2Fesm%2Fapp-router%2Fkeyless-actions.js%22%2C%5B%22deleteKeylessAction%22%2C%22syncKeylessConfigAction%22%2C%22createOrReadKeylessAction%22%5D%5D%5D&__client_imported__=!"
+        "app/_not-found/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fhome%2Fabdul-wahab%2FCode%20Space%2FWeb%2FFYP%2FPharmacy_store%2Fv0%2Fsrc%2Fapp%2FNavbar%2Fpage.tsx%22%2C%5B%22default%22%5D%5D%2C%5B%22%2Fhome%2Fabdul-wahab%2FCode%20Space%2FWeb%2FFYP%2FPharmacy_store%2Fv0%2Fnode_modules%2F%40clerk%2Fnextjs%2Fdist%2Fesm%2Fapp-router%2Fkeyless-actions.js%22%2C%5B%22deleteKeylessAction%22%2C%22syncKeylessConfigAction%22%2C%22createOrReadKeylessAction%22%5D%5D%5D&__client_imported__=!",
+        "app/Admin/Dashboard/Categories/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fhome%2Fabdul-wahab%2FCode%20Space%2FWeb%2FFYP%2FPharmacy_store%2Fv0%2Fsrc%2Fapp%2FNavbar%2Fpage.tsx%22%2C%5B%22default%22%5D%5D%2C%5B%22%2Fhome%2Fabdul-wahab%2FCode%20Space%2FWeb%2FFYP%2FPharmacy_store%2Fv0%2Fnode_modules%2F%40clerk%2Fnextjs%2Fdist%2Fesm%2Fapp-router%2Fkeyless-actions.js%22%2C%5B%22deleteKeylessAction%22%2C%22syncKeylessConfigAction%22%2C%22createOrReadKeylessAction%22%5D%5D%5D&__client_imported__=!",
+        "app/Admin/Dashboard/Categories/[CategoryName]/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fhome%2Fabdul-wahab%2FCode%20Space%2FWeb%2FFYP%2FPharmacy_store%2Fv0%2Fsrc%2Fapp%2FNavbar%2Fpage.tsx%22%2C%5B%22default%22%5D%5D%2C%5B%22%2Fhome%2Fabdul-wahab%2FCode%20Space%2FWeb%2FFYP%2FPharmacy_store%2Fv0%2Fnode_modules%2F%40clerk%2Fnextjs%2Fdist%2Fesm%2Fapp-router%2Fkeyless-actions.js%22%2C%5B%22deleteKeylessAction%22%2C%22syncKeylessConfigAction%22%2C%22createOrReadKeylessAction%22%5D%5D%5D&__client_imported__=!"
       },
       "layer": {
+        "app/Admin/Dashboard/Add-Category/page": "rsc",
         "app/page": "rsc",
-        "app/_not-found/page": "rsc"
+        "app/_not-found/page": "rsc",
+        "app/Admin/Dashboard/Categories/page": "rsc",
+        "app/Admin/Dashboard/Categories/[CategoryName]/page": "rsc"
+      }
+    },
+    "0b8c279b71c03104ce4db9fe0d1610fb28784cf6": {
+      "workers": {
+        "app/Admin/Dashboard/Add-Category/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fhome%2Fabdul-wahab%2FCode%20Space%2FWeb%2FFYP%2FPharmacy_store%2Fv0%2Fsrc%2Fapp%2FNavbar%2Fpage.tsx%22%2C%5B%22default%22%5D%5D%2C%5B%22%2Fhome%2Fabdul-wahab%2FCode%20Space%2FWeb%2FFYP%2FPharmacy_store%2Fv0%2Fnode_modules%2F%40clerk%2Fnextjs%2Fdist%2Fesm%2Fapp-router%2Fkeyless-actions.js%22%2C%5B%22deleteKeylessAction%22%2C%22syncKeylessConfigAction%22%2C%22createOrReadKeylessAction%22%5D%5D%5D&__client_imported__=!",
+        "app/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fhome%2Fabdul-wahab%2FCode%20Space%2FWeb%2FFYP%2FPharmacy_store%2Fv0%2Fsrc%2Fapp%2FNavbar%2Fpage.tsx%22%2C%5B%22default%22%5D%5D%2C%5B%22%2Fhome%2Fabdul-wahab%2FCode%20Space%2FWeb%2FFYP%2FPharmacy_store%2Fv0%2Fnode_modules%2F%40clerk%2Fnextjs%2Fdist%2Fesm%2Fapp-router%2Fkeyless-actions.js%22%2C%5B%22deleteKeylessAction%22%2C%22syncKeylessConfigAction%22%2C%22createOrReadKeylessAction%22%5D%5D%5D&__client_imported__=!",
+        "app/_not-found/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fhome%2Fabdul-wahab%2FCode%20Space%2FWeb%2FFYP%2FPharmacy_store%2Fv0%2Fsrc%2Fapp%2FNavbar%2Fpage.tsx%22%2C%5B%22default%22%5D%5D%2C%5B%22%2Fhome%2Fabdul-wahab%2FCode%20Space%2FWeb%2FFYP%2FPharmacy_store%2Fv0%2Fnode_modules%2F%40clerk%2Fnextjs%2Fdist%2Fesm%2Fapp-router%2Fkeyless-actions.js%22%2C%5B%22deleteKeylessAction%22%2C%22syncKeylessConfigAction%22%2C%22createOrReadKeylessAction%22%5D%5D%5D&__client_imported__=!",
+        "app/Admin/Dashboard/Categories/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fhome%2Fabdul-wahab%2FCode%20Space%2FWeb%2FFYP%2FPharmacy_store%2Fv0%2Fsrc%2Fapp%2FNavbar%2Fpage.tsx%22%2C%5B%22default%22%5D%5D%2C%5B%22%2Fhome%2Fabdul-wahab%2FCode%20Space%2FWeb%2FFYP%2FPharmacy_store%2Fv0%2Fnode_modules%2F%40clerk%2Fnextjs%2Fdist%2Fesm%2Fapp-router%2Fkeyless-actions.js%22%2C%5B%22deleteKeylessAction%22%2C%22syncKeylessConfigAction%22%2C%22createOrReadKeylessAction%22%5D%5D%5D&__client_imported__=!",
+        "app/Admin/Dashboard/Categories/[CategoryName]/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fhome%2Fabdul-wahab%2FCode%20Space%2FWeb%2FFYP%2FPharmacy_store%2Fv0%2Fsrc%2Fapp%2FNavbar%2Fpage.tsx%22%2C%5B%22default%22%5D%5D%2C%5B%22%2Fhome%2Fabdul-wahab%2FCode%20Space%2FWeb%2FFYP%2FPharmacy_store%2Fv0%2Fnode_modules%2F%40clerk%2Fnextjs%2Fdist%2Fesm%2Fapp-router%2Fkeyless-actions.js%22%2C%5B%22deleteKeylessAction%22%2C%22syncKeylessConfigAction%22%2C%22createOrReadKeylessAction%22%5D%5D%5D&__client_imported__=!"
+      },
+      "layer": {
+        "app/Admin/Dashboard/Add-Category/page": "rsc",
+        "app/page": "rsc",
+        "app/_not-found/page": "rsc",
+        "app/Admin/Dashboard/Categories/page": "rsc",
+        "app/Admin/Dashboard/Categories/[CategoryName]/page": "rsc"
       }
     },
     "4cdcd299f3d6db12be1fcce522a28433486d6984": {
       "workers": {
+        "app/Admin/Dashboard/Add-Category/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fhome%2Fabdul-wahab%2FCode%20Space%2FWeb%2FFYP%2FPharmacy_store%2Fv0%2Fsrc%2Fapp%2FNavbar%2Fpage.tsx%22%2C%5B%22default%22%5D%5D%2C%5B%22%2Fhome%2Fabdul-wahab%2FCode%20Space%2FWeb%2FFYP%2FPharmacy_store%2Fv0%2Fnode_modules%2F%40clerk%2Fnextjs%2Fdist%2Fesm%2Fapp-router%2Fkeyless-actions.js%22%2C%5B%22deleteKeylessAction%22%2C%22syncKeylessConfigAction%22%2C%22createOrReadKeylessAction%22%5D%5D%5D&__client_imported__=!",
         "app/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fhome%2Fabdul-wahab%2FCode%20Space%2FWeb%2FFYP%2FPharmacy_store%2Fv0%2Fsrc%2Fapp%2FNavbar%2Fpage.tsx%22%2C%5B%22default%22%5D%5D%2C%5B%22%2Fhome%2Fabdul-wahab%2FCode%20Space%2FWeb%2FFYP%2FPharmacy_store%2Fv0%2Fnode_modules%2F%40clerk%2Fnextjs%2Fdist%2Fesm%2Fapp-router%2Fkeyless-actions.js%22%2C%5B%22deleteKeylessAction%22%2C%22syncKeylessConfigAction%22%2C%22createOrReadKeylessAction%22%5D%5D%5D&__client_imported__=!",
-        "app/_not-found/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fhome%2Fabdul-wahab%2FCode%20Space%2FWeb%2FFYP%2FPharmacy_store%2Fv0%2Fsrc%2Fapp%2FNavbar%2Fpage.tsx%22%2C%5B%22default%22%5D%5D%2C%5B%22%2Fhome%2Fabdul-wahab%2FCode%20Space%2FWeb%2FFYP%2FPharmacy_store%2Fv0%2Fnode_modules%2F%40clerk%2Fnextjs%2Fdist%2Fesm%2Fapp-router%2Fkeyless-actions.js%22%2C%5B%22deleteKeylessAction%22%2C%22syncKeylessConfigAction%22%2C%22createOrReadKeylessAction%22%5D%5D%5D&__client_imported__=!"
+        "app/_not-found/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fhome%2Fabdul-wahab%2FCode%20Space%2FWeb%2FFYP%2FPharmacy_store%2Fv0%2Fsrc%2Fapp%2FNavbar%2Fpage.tsx%22%2C%5B%22default%22%5D%5D%2C%5B%22%2Fhome%2Fabdul-wahab%2FCode%20Space%2FWeb%2FFYP%2FPharmacy_store%2Fv0%2Fnode_modules%2F%40clerk%2Fnextjs%2Fdist%2Fesm%2Fapp-router%2Fkeyless-actions.js%22%2C%5B%22deleteKeylessAction%22%2C%22syncKeylessConfigAction%22%2C%22createOrReadKeylessAction%22%5D%5D%5D&__client_imported__=!",
+        "app/Admin/Dashboard/Categories/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fhome%2Fabdul-wahab%2FCode%20Space%2FWeb%2FFYP%2FPharmacy_store%2Fv0%2Fsrc%2Fapp%2FNavbar%2Fpage.tsx%22%2C%5B%22default%22%5D%5D%2C%5B%22%2Fhome%2Fabdul-wahab%2FCode%20Space%2FWeb%2FFYP%2FPharmacy_store%2Fv0%2Fnode_modules%2F%40clerk%2Fnextjs%2Fdist%2Fesm%2Fapp-router%2Fkeyless-actions.js%22%2C%5B%22deleteKeylessAction%22%2C%22syncKeylessConfigAction%22%2C%22createOrReadKeylessAction%22%5D%5D%5D&__client_imported__=!",
+        "app/Admin/Dashboard/Categories/[CategoryName]/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fhome%2Fabdul-wahab%2FCode%20Space%2FWeb%2FFYP%2FPharmacy_store%2Fv0%2Fsrc%2Fapp%2FNavbar%2Fpage.tsx%22%2C%5B%22default%22%5D%5D%2C%5B%22%2Fhome%2Fabdul-wahab%2FCode%20Space%2FWeb%2FFYP%2FPharmacy_store%2Fv0%2Fnode_modules%2F%40clerk%2Fnextjs%2Fdist%2Fesm%2Fapp-router%2Fkeyless-actions.js%22%2C%5B%22deleteKeylessAction%22%2C%22syncKeylessConfigAction%22%2C%22createOrReadKeylessAction%22%5D%5D%5D&__client_imported__=!"
       },
       "layer": {
+        "app/Admin/Dashboard/Add-Category/page": "rsc",
         "app/page": "rsc",
-        "app/_not-found/page": "rsc"
+        "app/_not-found/page": "rsc",
+        "app/Admin/Dashboard/Categories/page": "rsc",
+        "app/Admin/Dashboard/Categories/[CategoryName]/page": "rsc"
       }
     },
     "da20bd9e15e5529d22bae13a937248adb498a039": {
       "workers": {
+        "app/Admin/Dashboard/Add-Category/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fhome%2Fabdul-wahab%2FCode%20Space%2FWeb%2FFYP%2FPharmacy_store%2Fv0%2Fsrc%2Fapp%2FNavbar%2Fpage.tsx%22%2C%5B%22default%22%5D%5D%2C%5B%22%2Fhome%2Fabdul-wahab%2FCode%20Space%2FWeb%2FFYP%2FPharmacy_store%2Fv0%2Fnode_modules%2F%40clerk%2Fnextjs%2Fdist%2Fesm%2Fapp-router%2Fkeyless-actions.js%22%2C%5B%22deleteKeylessAction%22%2C%22syncKeylessConfigAction%22%2C%22createOrReadKeylessAction%22%5D%5D%5D&__client_imported__=!",
         "app/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fhome%2Fabdul-wahab%2FCode%20Space%2FWeb%2FFYP%2FPharmacy_store%2Fv0%2Fsrc%2Fapp%2FNavbar%2Fpage.tsx%22%2C%5B%22default%22%5D%5D%2C%5B%22%2Fhome%2Fabdul-wahab%2FCode%20Space%2FWeb%2FFYP%2FPharmacy_store%2Fv0%2Fnode_modules%2F%40clerk%2Fnextjs%2Fdist%2Fesm%2Fapp-router%2Fkeyless-actions.js%22%2C%5B%22deleteKeylessAction%22%2C%22syncKeylessConfigAction%22%2C%22createOrReadKeylessAction%22%5D%5D%5D&__client_imported__=!",
-        "app/_not-found/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fhome%2Fabdul-wahab%2FCode%20Space%2FWeb%2FFYP%2FPharmacy_store%2Fv0%2Fsrc%2Fapp%2FNavbar%2Fpage.tsx%22%2C%5B%22default%22%5D%5D%2C%5B%22%2Fhome%2Fabdul-wahab%2FCode%20Space%2FWeb%2FFYP%2FPharmacy_store%2Fv0%2Fnode_modules%2F%40clerk%2Fnextjs%2Fdist%2Fesm%2Fapp-router%2Fkeyless-actions.js%22%2C%5B%22deleteKeylessAction%22%2C%22syncKeylessConfigAction%22%2C%22createOrReadKeylessAction%22%5D%5D%5D&__client_imported__=!"
+        "app/_not-found/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fhome%2Fabdul-wahab%2FCode%20Space%2FWeb%2FFYP%2FPharmacy_store%2Fv0%2Fsrc%2Fapp%2FNavbar%2Fpage.tsx%22%2C%5B%22default%22%5D%5D%2C%5B%22%2Fhome%2Fabdul-wahab%2FCode%20Space%2FWeb%2FFYP%2FPharmacy_store%2Fv0%2Fnode_modules%2F%40clerk%2Fnextjs%2Fdist%2Fesm%2Fapp-router%2Fkeyless-actions.js%22%2C%5B%22deleteKeylessAction%22%2C%22syncKeylessConfigAction%22%2C%22createOrReadKeylessAction%22%5D%5D%5D&__client_imported__=!",
+        "app/Admin/Dashboard/Categories/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fhome%2Fabdul-wahab%2FCode%20Space%2FWeb%2FFYP%2FPharmacy_store%2Fv0%2Fsrc%2Fapp%2FNavbar%2Fpage.tsx%22%2C%5B%22default%22%5D%5D%2C%5B%22%2Fhome%2Fabdul-wahab%2FCode%20Space%2FWeb%2FFYP%2FPharmacy_store%2Fv0%2Fnode_modules%2F%40clerk%2Fnextjs%2Fdist%2Fesm%2Fapp-router%2Fkeyless-actions.js%22%2C%5B%22deleteKeylessAction%22%2C%22syncKeylessConfigAction%22%2C%22createOrReadKeylessAction%22%5D%5D%5D&__client_imported__=!",
+        "app/Admin/Dashboard/Categories/[CategoryName]/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fhome%2Fabdul-wahab%2FCode%20Space%2FWeb%2FFYP%2FPharmacy_store%2Fv0%2Fsrc%2Fapp%2FNavbar%2Fpage.tsx%22%2C%5B%22default%22%5D%5D%2C%5B%22%2Fhome%2Fabdul-wahab%2FCode%20Space%2FWeb%2FFYP%2FPharmacy_store%2Fv0%2Fnode_modules%2F%40clerk%2Fnextjs%2Fdist%2Fesm%2Fapp-router%2Fkeyless-actions.js%22%2C%5B%22deleteKeylessAction%22%2C%22syncKeylessConfigAction%22%2C%22createOrReadKeylessAction%22%5D%5D%5D&__client_imported__=!"
       },
       "layer": {
+        "app/Admin/Dashboard/Add-Category/page": "rsc",
         "app/page": "rsc",
-        "app/_not-found/page": "rsc"
+        "app/_not-found/page": "rsc",
+        "app/Admin/Dashboard/Categories/page": "rsc",
+        "app/Admin/Dashboard/Categories/[CategoryName]/page": "rsc"
       }
     },
     "cce29bd762d4dbf0292f7b1c9435c3bbe9630d9a": {
       "workers": {
+        "app/Admin/Dashboard/Add-Category/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fhome%2Fabdul-wahab%2FCode%20Space%2FWeb%2FFYP%2FPharmacy_store%2Fv0%2Fnode_modules%2F%40clerk%2Fnextjs%2Fdist%2Fesm%2Fapp-router%2Fserver-actions.js%22%2C%5B%22invalidateCacheAction%22%5D%5D%5D&__client_imported__=true!",
         "app/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fhome%2Fabdul-wahab%2FCode%20Space%2FWeb%2FFYP%2FPharmacy_store%2Fv0%2Fnode_modules%2F%40clerk%2Fnextjs%2Fdist%2Fesm%2Fapp-router%2Fserver-actions.js%22%2C%5B%22invalidateCacheAction%22%5D%5D%5D&__client_imported__=true!",
-        "app/_not-found/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fhome%2Fabdul-wahab%2FCode%20Space%2FWeb%2FFYP%2FPharmacy_store%2Fv0%2Fnode_modules%2F%40clerk%2Fnextjs%2Fdist%2Fesm%2Fapp-router%2Fserver-actions.js%22%2C%5B%22invalidateCacheAction%22%5D%5D%5D&__client_imported__=true!"
+        "app/_not-found/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fhome%2Fabdul-wahab%2FCode%20Space%2FWeb%2FFYP%2FPharmacy_store%2Fv0%2Fnode_modules%2F%40clerk%2Fnextjs%2Fdist%2Fesm%2Fapp-router%2Fserver-actions.js%22%2C%5B%22invalidateCacheAction%22%5D%5D%5D&__client_imported__=true!",
+        "app/Admin/Dashboard/Categories/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fhome%2Fabdul-wahab%2FCode%20Space%2FWeb%2FFYP%2FPharmacy_store%2Fv0%2Fnode_modules%2F%40clerk%2Fnextjs%2Fdist%2Fesm%2Fapp-router%2Fserver-actions.js%22%2C%5B%22invalidateCacheAction%22%5D%5D%5D&__client_imported__=true!",
+        "app/Admin/Dashboard/Categories/[CategoryName]/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fhome%2Fabdul-wahab%2FCode%20Space%2FWeb%2FFYP%2FPharmacy_store%2Fv0%2Fnode_modules%2F%40clerk%2Fnextjs%2Fdist%2Fesm%2Fapp-router%2Fserver-actions.js%22%2C%5B%22invalidateCacheAction%22%5D%5D%5D&__client_imported__=true!"
       },
       "layer": {
+        "app/Admin/Dashboard/Add-Category/page": "action-browser",
         "app/page": "action-browser",
-        "app/_not-found/page": "action-browser"
-      }
-    },
-    "75fe55b71fddbd4b61fd67aa24e5f7be41c8b7bd": {
-      "workers": {
-        "app/_not-found/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fhome%2Fabdul-wahab%2FCode%20Space%2FWeb%2FFYP%2FPharmacy_store%2Fv0%2Fsrc%2Fapp%2FNavbar%2Fpage.tsx%22%2C%5B%22default%22%5D%5D%2C%5B%22%2Fhome%2Fabdul-wahab%2FCode%20Space%2FWeb%2FFYP%2FPharmacy_store%2Fv0%2Fnode_modules%2F%40clerk%2Fnextjs%2Fdist%2Fesm%2Fapp-router%2Fkeyless-actions.js%22%2C%5B%22deleteKeylessAction%22%2C%22syncKeylessConfigAction%22%2C%22createOrReadKeylessAction%22%5D%5D%5D&__client_imported__=!",
-        "app/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fhome%2Fabdul-wahab%2FCode%20Space%2FWeb%2FFYP%2FPharmacy_store%2Fv0%2Fsrc%2Fapp%2FNavbar%2Fpage.tsx%22%2C%5B%22default%22%5D%5D%2C%5B%22%2Fhome%2Fabdul-wahab%2FCode%20Space%2FWeb%2FFYP%2FPharmacy_store%2Fv0%2Fnode_modules%2F%40clerk%2Fnextjs%2Fdist%2Fesm%2Fapp-router%2Fkeyless-actions.js%22%2C%5B%22deleteKeylessAction%22%2C%22syncKeylessConfigAction%22%2C%22createOrReadKeylessAction%22%5D%5D%5D&__client_imported__=!"
-      },
-      "layer": {
-        "app/_not-found/page": "rsc",
-        "app/page": "rsc"
+        "app/_not-found/page": "action-browser",
+        "app/Admin/Dashboard/Categories/page": "action-browser",
+        "app/Admin/Dashboard/Categories/[CategoryName]/page": "action-browser"
       }
     }
   },
   "edge": {},
-  "encryptionKey": "+kio6LQAXgWOHSA6vZKJM+aa1Hfsum+5muNdYXCuUSw="
+  "encryptionKey": "ONqX4CMq0iwoxIHvKw/MKw6E/choRsqitxliKIr+qyA="
 }

@@ -1,4 +1,8 @@
 {
+  "/_not-found/page": "app/_not-found/page.js",
   "/page": "app/page.js",
-  "/api/profile/Categories/route": "app/api/profile/Categories/route.js"
+  "/api/profile/Categories/route": "app/api/profile/Categories/route.js",
+  "/Admin/Dashboard/Add-Category/page": "app/Admin/Dashboard/Add-Category/page.js",
+  "/Admin/Dashboard/Categories/page": "app/Admin/Dashboard/Categories/page.js",
+  "/Admin/Dashboard/Categories/[CategoryName]/page": "app/Admin/Dashboard/Categories/[CategoryName]/page.js"
 }

@@ -15,9 +15,9 @@ interface medicines {
   stock: Number;
   imageUrl: string;
 }
+
 export default function Home() {
   const [categories, setCategories] = useState<categories[]>([]);
-
   const [medicines, setMedicines] = useState(null);
 
   const fetchData = async () => {
@@ -32,27 +32,6 @@ export default function Home() {
   useEffect(() => {
     fetchData();
   }, []);
-
-  const medicineCategories = [
-    {
-      categoryName: "Tablets",
-      categoryDescription:
-        "Wide range of oral medications for pain, fever, infections, and more.",
-      imageUrl: "/images/tablet-category.jpg",
-    },
-    {
-      categoryName: "Syrups",
-      categoryDescription:
-        "Liquid medicines ideal for children and soothing treatments.",
-      imageUrl: "/images/syrup-category.jpg",
-    },
-    {
-      categoryName: "Creams",
-      categoryDescription:
-        "Liquid medicines ideal for children and soothing treatments.",
-      imageUrl: "/images/syrup-category.jpg",
-    },
-  ];
 
   const popularProducts = [
     {

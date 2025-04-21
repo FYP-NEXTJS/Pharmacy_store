@@ -1,7 +1,6 @@
 import { NextResponse } from "next/server";
 import clientPromise from "@/lib/mongodb";
 import bcrypt from "bcryptjs";
-import { v4 as uuidv4 } from "uuid"; // Import UUID for custom user ID
 
 export async function POST(req: Request) {
   try {
